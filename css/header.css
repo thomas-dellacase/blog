@@ -1,0 +1,70 @@
+/* ===================================GOOGLE FONT================================================================ */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/* ======================CLASS GENERALIST===================================== */
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.j_center {
+    justify-content: center;
+}
+
+.j_around {
+    justify-content: space-around;
+}
+
+.j_between {
+    justify-content: space-between;
+}
+
+.a_center {
+    align-content: center;
+    align-items: center;
+}
+
+.a_around {
+    align-content: space-around;
+}
+
+.a_between {
+    align-content: space-between;
+}
+
+.a_end {
+    align-items: flex-end;
+}
+
+.a_start {
+    align-items: flex-start;
+}
+
+
+/* =============CLASS SPECIFIC================================================================ */
+header{
+    width: 100%;
+    height: 5vh;
+}
+nav ul{
+    width: 100%;
+    text-decoration: none;
+    list-style-type: none;
+}
+nav a{
+    text-decoration: none;
+    font-family:Montserrat;
+    color: black;
+}
+nav a:hover{
+    text-decoration: underline;
+    transition: 1.5s;
+}

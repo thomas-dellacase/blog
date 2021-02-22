@@ -1,0 +1,10 @@
+footer{
+    width: 100%;
+    margin: auto;
+    height: 5vh;
+}
+footer a{
+    color: black;
+    font-family: Montserrat;
+    text-decoration: none;
+}

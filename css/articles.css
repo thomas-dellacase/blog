@@ -1,0 +1,49 @@
+table {
+    border-collapse: collapse;
+    width: 90%;
+    font-family: Montserrat;
+    background-image: url('../ressources/img/dark-honeycomb.png');
+}
+
+td,
+th {
+    padding: 5vh;
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+
+td a{
+    text-decoration: none;
+    color: white;
+}
+
+td a:hover{
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;
+}
+
+body {
+    margin: 0;
+}
+
+main{
+    margin: 0;
+    width: 100%;
+    min-height: 90vh;
+    font-family: Montserrat;
+}
+
+#titre_articles{
+    width: 20%;
+    font-variant: small-caps;
+}
+#txt_articles{
+    width: 45%;
+}
+#categorie_articles{
+    width: 20%;
+}
+#date_articles{
+    color: blue;
+}

@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+}
+main{
+    font-family: Montserrat;
+    text-align: center;
+    width: 100%;
+    height: 150vh;
+}
+h1{
+    font-variant: small-caps;
+}
