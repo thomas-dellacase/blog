@@ -45,21 +45,6 @@ require_once("class/class-article.php");
         <?php
             $NewArticle = new Article;
             $NewArticle->articlepageIndex();
-            if (isset($_POST['trierCategorie'])){
-                $trie = new Article;
-                $trie->articleByCategoryIndex($_POST['updateCat']);
-                echo "<table>";
-                foreach($_SESSION['categorie'] as $row){
-                    echo 
-                    "<tr>
-                        <td>" . $row['Titre'] . "</td>
-                        <td>" . $row['article'] . "</td>
-                        <td>" . $row['nom'] ."</td>
-                        <td>" . $row['date'] ."</td>
-                    </tr>";
-                }
-                echo "</table>";
-            }
         ?>
     </main>
     <?php require_once('pages/footer.php');?>
