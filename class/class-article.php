@@ -192,7 +192,7 @@ public function articlepageIndex(){
         foreach($iterator as $row){
         echo 
             "<tr>
-                <td> <a href='article.php?id=" . $row['id'] . "'>" . $row['Titre'] . "</a></td>
+                <td>" . $row['Titre'] . "</td>
                 <td>" . $row['article'] . "</td>
                 <td>" . $row['nom'] . "</td>
                 <td>" . $row['date'] . "</td>
